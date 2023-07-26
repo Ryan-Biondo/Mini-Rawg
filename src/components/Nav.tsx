@@ -1,19 +1,15 @@
-import styles from '../styles/Nav.module.css';
+import { HStack, Image, Text } from '@chakra-ui/react';
+import logo from '../assets/logo.webp';
 
-const Nav = () => {
+const NavBar = () => {
   return (
-    <nav className={styles.nav}>
-      <img
-        src="./src/assets/images/profilepic.png"
-        alt="profilepic"
-        id={styles.profilePic}
-      />
-
-      <input type="text" placeholder="Search" className={styles.searchBar} />
-
-      <div className={styles.darkMode}></div>
-    </nav>
+    <HStack>
+      <Image src={logo} boxSize="60px" />
+      <Text fontSize="2xl" fontWeight="bold">
+        Game Finder
+      </Text>
+    </HStack>
   );
 };
 
-export default Nav;
+export default NavBar;

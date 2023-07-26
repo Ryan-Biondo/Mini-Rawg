@@ -2,11 +2,6 @@ import styles from '../styles/GameDisplay.module.css';
 const GameDisplay = () => {
   return (
     <div className={styles.main}>
-      <div className={styles.genreBar}>
-        <h2 className={styles.genreTitle}>Genres</h2>
-        <div className={styles.genre}>...import with API</div>
-      </div>
-
       <div className={styles.gameDisplay}>
         <div>
           <h2>All Titles ...import</h2>
