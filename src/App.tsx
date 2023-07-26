@@ -16,12 +16,12 @@ function App() {
         </GridItem>
 
         <Show above="lg">
-          <GridItem gridArea="aside" bg="gold">
+          <GridItem gridArea="aside">
             <GenreList />
           </GridItem>
         </Show>
 
-        <GridItem gridArea="main" bg="dodgerblue">
+        <GridItem gridArea="main">
           <GameDisplay />
         </GridItem>
       </Grid>
