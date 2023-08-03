@@ -1,4 +1,5 @@
 import styles from '../styles/GameDisplay.module.css';
+
 const GameDisplay = () => {
   return (
     <div className={styles.main}>
